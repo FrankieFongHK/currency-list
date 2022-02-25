@@ -18,6 +18,10 @@ A Exercise to show the currency list
 - **ui**: View class along with their corresponding ViewModel
 - **utils**: Provides common utility methods
 
+#### Functions in this application
+1. Load currency list from local database
+2. Sort the currency list by currency's name
+
 ## Issue
 #### Handle multi threading operation
 By using RxJava, queries from local db and sorting the currency list will be processed in a new io thread.
