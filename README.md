@@ -1,5 +1,7 @@
 # Android-Currency-List
 A Exercise to show the currency list
+
+#### Demo
 <img height="400px" src="demo/currency.gif" />
 
 #### Project Details:
