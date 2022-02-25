@@ -19,8 +19,8 @@ A Exercise to show the currency list
 - **utils**: Provides common utility methods
 
 #### Functions in this application
-1. Load currency list from local database
-2. Sort the currency list by currency's name
+- Load currency list from local database
+- Sort the currency list by currency's name in ascending
 
 ## Issue
 #### Handle multi threading operation
