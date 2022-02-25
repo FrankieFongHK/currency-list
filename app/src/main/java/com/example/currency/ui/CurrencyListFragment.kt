@@ -41,10 +41,10 @@ class CurrencyListFragment : DaggerFragment() {
         // Set the adapter
         adapter = CurrencyAdapter(listOf())
         adapter.setCallback(activity as RecyclerViewCallback<CurrencyInfo>)
-        if (view is RecyclerView) {
-            view.layoutManager = LinearLayoutManager(context)
-            view.adapter = adapter
-        }
+
+        val recyclerView = view.findViewById<RecyclerView>(R.id.list)
+        recyclerView.layoutManager = LinearLayoutManager(context)
+        recyclerView.adapter = adapter
         return view
     }
 
